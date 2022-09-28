@@ -23,6 +23,6 @@ public class TipCalculator {
                 ", the total bill is $" + String.format("%.2f", totalBill) + // print the update total bill
                 "\nDivided among the " + numberOfPeople + " people, each person will pay $" + String.format("%.2f", totalPerPerson)); // print the cost per person
 
-        scanner.close();
+        scanner.close(); // close scanner
     }
 }
