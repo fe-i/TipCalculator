@@ -10,7 +10,7 @@ public class TipCalculator {
         System.out.print("Input the tip percentage as a whole number (without % symbol): ");
         double tipPercentage = scanner.nextDouble(); // collect user input for the tip percentage
 
-        System.out.print("Number of people: ");
+        System.out.print("Input the number of people: ");
         int numberOfPeople = scanner.nextInt(); // collect user input for the number of people
 
         System.out.println("----------------------------");
